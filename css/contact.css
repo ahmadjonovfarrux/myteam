@@ -1,0 +1,77 @@
+@import "./global.css";
+@import "./root.css";
+
+.contact-info {
+  background-color: var(--green14);
+  background-image: url(../img/contact1.png),
+    url(../img/bg-pattern-contact-2.svg);
+  background-position: top left, bottom right -100px;
+  background-repeat: no-repeat;
+  color: var(--white);
+  padding-top: 4.7rem;
+  padding-bottom: 14rem;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: var(--small-h1-fs);
+  line-height: var(--small-h1-lh);
+  margin-bottom: 1.6rem;
+}
+.asking-title {
+  font-weight: 700;
+  font-size: var(--small-h2-fs);
+  line-height: var(--small-h2-lh);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 2.3rem;
+}
+
+.login-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.costumer-info {
+  width: 540px;
+  display: block;
+  background-color: var(--green14);
+  border: none;
+  border-bottom: 1px solid var(--white);
+  margin-top: 2.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.costumer-info::placeholder {
+  color: var(--white);
+}
+
+.costumer-info[type="text"] {
+  color: var(--white);
+}
+
+.costumer-info[type="email"] {
+  color: var(--white);
+}
+.costumer-info:focus {
+  outline: none;
+  border-bottom: 1px solid var(--light-blue);
+}
+
+textarea {
+  color: var(--white);
+}
+
+.btn {
+  display: block;
+  margin-top: 2.4rem;
+}

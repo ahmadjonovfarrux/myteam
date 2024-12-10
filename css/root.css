@@ -1,0 +1,34 @@
+:root {
+  /* Color styles */
+  --white: #ffffff;
+  --green: #004047;
+  --light-red: #f67e7e;
+  --light-blue: #79c8c7;
+  --green002: #002529;
+  --green12: #012f34;
+  --green14: #014e56;
+
+  /* Font-styles */
+  --large-h1-fs: 10rem;
+  --large-h1-lh: 1;
+
+  --small-h1-fs: 6.4rem;
+  --small-h1-lh: 1.1;
+
+  --large-h2-fs: 4.8rem;
+  --large-h2-lh: 1;
+
+  --small-h2-fs:3.2rem;
+  --small-h2-lh:1.5;
+
+  --large-h3-fs: 1.8rem;
+  --large-h3-lh: 1.5;
+
+  --middle-p-fs: 1.5rem;
+  --middle-p-lh: 1.8;
+
+  --small-p-fs:1.3rem;
+  --small-p-lh:1.3;
+
+
+}

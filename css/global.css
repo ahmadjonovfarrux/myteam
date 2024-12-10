@@ -1,0 +1,280 @@
+@import "./normalize.css";
+@import "./root.css";
+/* Fonts styles */
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  src: url("../fonts/livvic-v14-latin-500italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/livvic-v14-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/livvic-v14-latin-700italic.woff2") format("woff2");
+}
+
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Livvic";
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-size: 1.5rem;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn {
+  border: 2px solid transparent;
+  border-radius: 2.4rem;
+  padding: 0.9rem 3.3rem 1.1rem 3.2rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.primary-btn {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.primary-btn:hover {
+  color: var(--green002);
+  background-color: var(--white);
+}
+
+.primary-btn.disabled {
+  opacity: 25%;
+}
+
+.primary-dark-btn {
+  background-color: var(--green002);
+  color: var(--green002);
+  background-color: transparent;
+}
+
+.primary-dark-btn:hover {
+  border-color: var(--green002);
+  color: var(--white);
+  background-color: var(--green002);
+}
+
+.primary-dark-btn.disabled {
+  opacity: 25%;
+}
+
+.secondary-btn {
+  border-color: var(--white);
+  background-color: var(--white);
+  color: var(--green002);
+}
+
+.secondary-btn:hover {
+  border-color: var(--light-blue);
+  background-color: var(--light-blue);
+}
+
+.secondary-btn.disabled {
+  opacity: 25%;
+}
+
+.divider {
+  width: 50px;
+  height: 4px;
+}
+
+.divider-blue {
+  background-color: var(--light-blue);
+}
+.divider-orange {
+  background-color: var(--light-red);
+}
+
+.orange-text {
+  color: var(--light-red);
+}
+
+.blue-text {
+  color: var(--light-blue);
+}
+#active {
+  color: var(--light-red);
+}
+
+/* Header section */
+.header {
+  background-color: var(--green14);
+  padding-top: 7.3rem;
+  padding-bottom: 7.3rem;
+}
+
+.content-box {
+  max-width: 1110px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: 8rem;
+}
+
+.sitenav {
+  margin-right: auto;
+}
+.sitenav-list {
+  display: flex;
+  gap: 4rem;
+}
+
+.sitenav-link {
+  color: var(--white);
+  font-size: var(--large-h3-fs);
+}
+.sitenav-link:hover {
+  color: var(--light-red);
+}
+
+/* Question-page section */
+.quetion-page {
+  padding: 7.6rem 0;
+  background-color: var(--light-red);
+  background-image: url(../img/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.question-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.question-title {
+  font-weight: 700;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  color: var(--green12);
+}
+
+.question-btn {
+  border-color: var(--green002);
+}
+
+/* Footer  */
+.footer {
+  padding: 4.8rem;
+  background-color: var(--green002);
+  color: var(--white);
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+
+.footernav {
+  display: flex;
+}
+.footernav-list {
+  display: flex;
+  gap: 4rem;
+  padding-top: 2.5rem;
+}
+
+.footer-link {
+  color: var(--white);
+  font-weight: 600;
+  font-size: var(--large-h3-fs);
+  line-height: var(--large-h3-lh);
+}
+
+.footer-link:hover {
+  color: var(--light-red);
+}
+
+.footer-link:active {
+  opacity: 60%;
+}
+.footer-info {
+  margin-left: 12.5rem;
+}
+.social-links {
+  margin-left: 35rem;
+}
+.social-icons {
+  margin-left: 13rem;
+}
+.icon {
+  margin: 0 0.8rem;
+}
+
+.icon:hover path {
+  fill: var(--light-red);
+}
+.social-link-info {
+  margin-top: 5rem;
+}

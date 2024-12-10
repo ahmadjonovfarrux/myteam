@@ -1,0 +1,173 @@
+@import "./global.css";
+@import "./root.css";
+
+/* Hero section */
+.hero {
+  padding-top: 5.6rem;
+  background-color: var(--green14);
+  color: var(--white);
+  padding-bottom: 15rem;
+  background-image: url(../img/bg-pattern-home-1.svg), url(../img/home-2.svg);
+  background-repeat: no-repeat;
+  background-position: top 11rem left -100px, bottom right 16.5rem;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-title {
+  max-width: 535px;
+  width: 100%;
+  font-size: var(--large-h1-fs);
+  line-height: var(--large-h1-lh);
+}
+
+.hero-description {
+  width: 100%;
+  max-width: 445px;
+}
+.hero-divider {
+  margin-bottom: 7.9rem;
+}
+
+.hero-description-text {
+  font-size: var(--large-h3-fs);
+  line-height: var(--large-h3-lh);
+}
+
+/* Features section */
+
+.features {
+  background-image: url(../img/bg-pattern-home-3.svg);
+  background-repeat: no-repeat;
+  background-position: right -100px bottom;
+  background-color: var(--green12);
+  color: var(--white);
+  padding: 14rem 0;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features-divider {
+  margin-bottom: 5.4rem;
+}
+
+.features-title {
+  width: 44.5rem;
+  font-weight: 700;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+}
+
+.features-list {
+  padding-top: 198px;
+  display: flex;
+  flex-direction: column;
+  gap: 54px;
+}
+
+.features-item {
+  display: flex;
+  gap: 23px;
+}
+
+.features-box {
+  width: 445px;
+}
+
+.features-text {
+  font-weight: 700;
+  font-size: var(--large-h3-fs);
+  line-height: var(--large-h3-lh);
+}
+
+.features-description {
+  font-weight: 600;
+  font-size: var(--middle-p-fs);
+  line-height: var(--middle-p-lh);
+}
+
+/* Stories section */
+.stories {
+  background-color: var(--green);
+  color: var(--white);
+  background-image: url(../img/bg-pattern-home-4-about-3.svg),
+    url(../img/bg-pattern-home-5.svg);
+  background-repeat: no-repeat;
+  background-position: left top, right bottom;
+  padding: 14rem 0;
+}
+
+.stories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stories-title {
+  width: 93.2rem;
+  font-weight: 700;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  text-indent: 100px;
+}
+
+.stories-blue-text {
+  color: var(--light-blue);
+}
+
+.stories-info {
+  max-width: 1110px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5.6rem;
+}
+
+.person-info {
+  background-image: url(..//img/icon-quotes.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stories-text {
+  width: 35rem;
+  font-weight: 600;
+  font-size: var(--middle-p-fs);
+  line-height: var(--middle-p-lh);
+}
+
+.stories-name {
+  color: var(--light-blue);
+  font-weight: 700;
+  font-size: var(--large-h3-fs);
+  line-height: var(--large-h3-lh);
+  margin-top: 2.4rem;
+}
+
+.stories-job {
+  font-weight: 500;
+  font-style: italic;
+  font-size: var(--small-p-fs);
+  line-height: var(--small-p-lh);
+}
+
+.person-img {
+  width: 6.2rem;
+  height: 6.2rem;
+  border-radius: 50%;
+  margin-top: 3.2rem;
+}

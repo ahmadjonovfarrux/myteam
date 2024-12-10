@@ -1,0 +1,154 @@
+@import "./global.css";
+@import "./root.css";
+
+.about-container {
+  background-color: var(--green14);
+  color: var(--white);
+  padding-top: 4.7rem;
+  padding-bottom: 12rem;
+  background-image: url(../img/bg-pattern-about-1-mobile-nav-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right -100px;
+}
+.about-container .content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: var(--small-h1-fs);
+  line-height: var(--small-h1-lh);
+}
+
+.about-text {
+  max-width: 600px;
+  width: 100%;
+}
+
+.divider {
+  margin-bottom: 4rem;
+}
+
+/* Directors section */
+.directors {
+  background-color: var(--green);
+  color: var(--white);
+  padding-top: 14rem;
+  background-image: url(../img/bg-pattern-about-2-contact-1.svg),
+    url(../img/directors-rect.png);
+  background-position: top left -100px;
+  background-repeat: no-repeat;
+}
+.directors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directors-title {
+  font-weight: 700;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+}
+
+.directors-info {
+  margin-top: 6.4rem;
+  max-width: 1110px;
+  width: 100%;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.director-founders {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.founders-info {
+  width: 35rem;
+  height: 25.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--green12);
+  margin-bottom: 7.6rem;
+}
+.founders-img {
+  width: 9.6rem;
+  height: 9.6rem;
+  border-radius: 50%;
+  border-color: 2px solid var(--light-blue);
+  margin-bottom: 1.6rem;
+}
+.founders-name {
+  font-weight: 700;
+  font-size: var(--large-h3-fs);
+  line-height: var(--large-h3-lh);
+}
+.founders-job {
+  font-weight: 500;
+  font-style: italic;
+  font-size: var(--middle-p-fs);
+  line-height: var(--middle-p-lh);
+}
+.founders-ico {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 50%;
+  background-color: var(--light-red);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 25rem;
+}
+
+.founders-ico:active {
+  background-color: var(--light-blue);
+}
+
+.founder-blue-bg {
+  background-color: var(--light-blue);
+}
+
+.founder-blue-bg:active {
+  background-color: var(--light-red);
+}
+
+.worker-job {
+  margin-top: 0.8rem;
+  margin-bottom: 2.4rem;
+  width: 254px;
+}
+
+/* Clients section */
+.clients {
+  background-color: var(--green12);
+  color: var(--white);
+  background-image: url(../img/bg-pattern-about-4.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.clients-container {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients-title {
+  font-weight: 700;
+  font-size: var(--large-h2-fs);
+  line-height: var(--large-h2-lh);
+  margin-bottom: 6.4rem;
+}
+.clients-logos {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
